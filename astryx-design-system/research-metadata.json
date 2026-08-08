@@ -1,0 +1,13 @@
+{
+  "name": "astryx-design-system",
+  "research_snapshot": "2026-08-08",
+  "upstream_status": "beta",
+  "primary_site": "https://astryx.atmeta.com/",
+  "repository": "https://github.com/facebook/astryx",
+  "design_goal": "runtime-discovered, version-resilient Astryx implementation skill",
+  "notes": [
+    "Do not pin Astryx package versions in the skill.",
+    "Use the installed CLI manifest and component/docs/template surfaces as the source of truth.",
+    "No undocumented MCP command names are encoded because public CLI documentation is the verified agent interface in this research snapshot."
+  ]
+}
